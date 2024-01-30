@@ -269,14 +269,15 @@ li {
 }
 
 /*  Hero section */
-.hero{
+.hero {
   position: relative;
   height: 25vh;
   background: linear-gradient(to right, #DF6594, #375198);
   padding-top: 4rem;
   color: #fff;
 }
-.hero h1{
+
+.hero h1 {
   font-size: 1.4rem;
 }
 
@@ -319,12 +320,12 @@ li {
   font-weight: 300;
   font-size: 16px;
   text-align: center;
-  color: #6d7c83;
+  color: #040404;
   text-transform: capitalize;
 }
 
 #product_content p {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 12px;
   letter-spacing: .2rem;
   line-height: 15px;
@@ -356,7 +357,7 @@ li {
   margin: auto;
   width: 100vw;
   height: 30rem;
-
+  object-fit: cover;
 }
 
 .section {
@@ -447,10 +448,11 @@ li {
   height: 50vh;
 }
 
-.features_Section .carousel .carousel-item img {
-  width: 100%;
+.features_Section .featuredImg img {
+  width: 100vw;
   height: 50vh;
-  border-radius: 5px;
+  object-fit: cover;
+  margin: 2rem 0;
 }
 
 
@@ -675,11 +677,17 @@ li {
   margin-left: 5%;
 }
 
-.left-banner {
+.most_products__sold .left-banner {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 100%;
+  margin-top: 6%;
+}
+
+.left-banner img {
+  width: 100%;
   border-radius: 10px;
+  margin: 1rem 0;
 }
 
 /* testimonial */
@@ -935,7 +943,7 @@ li {
 
 @media screen and (max-width: 720px) {
   .footer-section .sofa-img {
-   display: none; 
+    display: none;
   }
 }
 
